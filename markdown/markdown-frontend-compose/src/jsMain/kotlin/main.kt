@@ -51,8 +51,8 @@ fun main() {
   renderComposable("root") {
 
     // Persistence.
-    LoadEventsEffect(session, local)
-    SaveEventsEffect(session, local)
+    // LoadEventsEffect(session, local)
+    // SaveEventsEffect(session, local)
 
     // Application.
     CompositionLocalProvider(LocalSiteIdentifier provides site) {
